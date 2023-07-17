@@ -3,7 +3,6 @@ function Home() {
     <div className="App">
       Home
     </div>
-       
   )
 }
 
