@@ -1,9 +1,10 @@
+import Layout from '../../Components/Layout'
+
 function MyOrders() {
     return (
-      <div className="App">
+      <Layout>
         MyOrders
-      </div>
-         
+      </Layout>
     )
   }
   

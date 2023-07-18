@@ -1,10 +1,11 @@
+import Layout from '../../Components/Layout'
+
 function SignIn() {
-    return (
-      <div className="App">
-        SignIn
-      </div>
-         
-    )
-  }
+  return (
+    <Layout>
+      SignIn
+    </Layout>
+  )
+}
   
-  export default SignIn
+export default SignIn
