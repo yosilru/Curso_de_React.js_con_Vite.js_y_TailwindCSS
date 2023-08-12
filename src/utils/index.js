@@ -3,7 +3,7 @@
  * @param {Array} products cartProduct: Array of objects
  * @returns {numer} Total price
  */
-export const totalPrice = () => {
+export const totalPrice = (products) => {
     let sum = 0
     products.forEach(product => sum += product.price)
     return sum
