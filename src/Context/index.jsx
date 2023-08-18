@@ -3,7 +3,7 @@ import { createContext, useState, useEffect } from 'react';
 export const ShoppingCartContext = createContext()
 
 export const ShoppingCartProvider = ({children}) => {
-    // ShoppingCartProvider . Increment quantity
+    // Shopping Cart . Increment quantity
     const [count, setCount] = useState(0)
 
     // Product Detail . Open/Close
